@@ -68,7 +68,7 @@
           <mj-text font-size="16px" line-height="24px" color="#17324D" font-weight="400" align="left" css-class="intro">
             <p>Ciao,</p>
             <p><b>${requesterName} ${requesterSurname}</b> ti ha assegnato il ruolo di <b>${productRole}</b> per il prodotto <b>${productName}</b> nell’Area Riservata di <b>${institutionName}</b>. </p>
-             <p>Per operare sul prodotto, vai su <a href="https://selfcare.pagopa.it" style="color: #0073E6;">selfcare.pagopa.it</a> e accedi con SPID o CIE.</p>
+             <p>Per operare sul prodotto, entra nell'<a href="https://selfcare.pagopa.it" style="color: #0073E6;">Area Riservata</a> e accedi con SPID o CIE.</p>
           </mj-text>
           <!-- FAQ -->
           <mj-text font-size="16px" line-height="24px" font-weight="regular" color="#17324D">
