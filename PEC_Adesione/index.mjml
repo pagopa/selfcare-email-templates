@@ -71,7 +71,7 @@
           <mj-text font-size="16px" line-height="24px" color="#17324D" font-weight="400" align="left" css-class="intro">
             <p><b>${requesterName} ${requesterSurname} ${requesterTaxCode}</b> ha fatto una richiesta di adesione al prodotto ${productName}.</p>
             <p>In allegato trovi l’Accordo di Adesione, ovvero il contratto di prodotto. Al suo interno ci sono i nomi degli Amministratori indicati in fase di richiesta.</p>
-            <p>Per completare l’adesione, scarica l’Accordo e fai apporre la firma digitale dal Legale Rappresentante del tuo ente. Poi, vai su <a href="${confirmTokenURL}" style="color: #0073E6">pagopa.selfcare.it</a> e segui le istruzioni per caricare l’accordo.</p>
+            <p>Per completare l’adesione, scarica l’Accordo e fai apporre la firma digitale dal Legale Rappresentante del tuo ente. Poi, vai su <a href="${confirmTokenURL}" style="color: #0073E6">selfcare.pagopa.it</a> e segui le istruzioni per caricare l’accordo.</p>
             <p>Se lo desideri, puoi <a href="${rejectTokenURL}" style="color: #0073E6">annullare la richiesta di adesione</a>.</p>
           </mj-text>
           <!-- FAQ -->
@@ -79,7 +79,7 @@
             <p>Se hai problemi tecnici o domande in merito al funzionamento dell’Area Riservata, scrivi a <a href="mailto:selfcare@assistenza.pagopa.it" style="color: #0073E6;">selfcare@assistenza.pagopa.it</a>.</p>
           </mj-text>
           <mj-text font-size="16px" line-height="24px" color="#17324D">
-            <p>A presto,<br aria-hidden="true">il team di pagoPA</p>
+            <p>A presto,<br aria-hidden="true">il team di PagoPA S.p.A.</p>
           </mj-text>
         </mj-column>
       </mj-section>
