@@ -1,6 +1,6 @@
 <mjml lang="it">
   <mj-head>
-    <mj-title>Accordo di Adesione</mj-title>
+    <mj-title>Accordo di adesione</mj-title>
     <mj-font
       name="Titillium Web"
       href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
@@ -32,7 +32,7 @@
           >
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 40px; margin: 0">
-              Accordo di Adesione
+              Accordo di adesione
             </h1>
           </mj-text>
 
@@ -107,7 +107,9 @@
             padding-bottom="0px"
             color="#17324D"
           >
-            <p>A presto,<br aria-hidden="true" />il team di PagoPA S.p.A.</p>
+            <p style="margin-top: 0px">
+              A presto,<br aria-hidden="true" />il team di PagoPA S.p.A.
+            </p>
           </mj-text>
         </mj-column>
       </mj-section>
