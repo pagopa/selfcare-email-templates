@@ -1,6 +1,6 @@
 <mjml lang="it">
   <mj-head>
-    <mj-title>Notifica accordo di adesione</mj-title>
+    <mj-title>Notifica richiesta di adesione</mj-title>
     <mj-font
       name="Titillium Web"
       href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
@@ -32,7 +32,7 @@
           >
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 40px; margin: 0">
-              Notifica accordo di adesione
+              Richiesta di adesione nell'Area Riservata
             </h1>
           </mj-text>
 
@@ -60,26 +60,16 @@
           >
             <p style="margin-top: 0px">
               <strong>${requesterName} ${requesterSurname}</strong>
-              ha fatto una richiesta di adesione al prodotto
-              <strong>${productName}</strong> per conto di <strong>${institutionName}</strong>.
+              ha richiesto l'adesione al prodotto
+              <strong>${productName}</strong> per  <strong>${institutionName}</strong>.
             </p>
             <p style="margin-top: 0px">
-              Puoi visualizzare la richiesta di adesione tramite
+              Puoi visionare i dati inseriti e validare la richiesta
               <a href="${confirmTokenURL}" style="color: #0073e6" class="link"
-                >questo link</a
+                >qui</a
               >.
             </p>
 
-            <p style="margin-top: 0px">
-              Se hai problemi tecnici o domande in merito al funzionamento
-              dell’Area Riservata, scrivi a
-              <a
-                href="mailto:selfcare@assistenza.pagopa.it"
-                style="color: #0073e6"
-                class="link"
-                >selfcare@assistenza.pagopa.it</a
-              >.
-            </p>
           </mj-text>
           <mj-text
             css-class="text"
