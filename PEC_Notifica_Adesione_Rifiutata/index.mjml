@@ -60,8 +60,13 @@
           >
             <p style="margin-top: 0px">
               la richiesta di adesione al prodotto
-              <strong>${productName}</strong> è stata rifiutata!
-           		Ti invitiamo a riprovare ad effettuare di nuovo l'adesione al prodotto selezionato.</p>
+              <strong>${productName}</strong> non è andata a buon fine. Prova ad aderire al prodotto scelto inviando una nuova richiesta da
+              <a
+                href="mailto:selfcare@assistenza.pagopa.it"
+                style="color: #0073e6"
+                class="link"
+                >questo link</a
+              >.</p>
             <p style="margin-top: 0px">
               Se hai problemi tecnici o domande in merito al funzionamento
               dell’Area Riservata, scrivi a
