@@ -62,7 +62,7 @@
               la richiesta di adesione al prodotto
               <strong>${productName}</strong> non è andata a buon fine. Prova ad aderire al prodotto scelto inviando una nuova richiesta da
               <a
-                href="mailto:selfcare@assistenza.pagopa.it"
+                href="${onboardingUrl}"
                 style="color: #0073e6"
                 class="link"
                 >questo link</a
