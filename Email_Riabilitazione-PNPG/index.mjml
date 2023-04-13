@@ -1,0 +1,102 @@
+<mjml lang="it">
+  <mj-head>
+    <mj-title
+      >${requesterName}${requesterSurname} ti ha
+      <br aria-hidden="true" />riabilitato</mj-title
+    >
+    <mj-font
+      name="Titillium Web"
+      href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
+    />
+    <mj-attributes>
+      <mj-all font-family="Titillium Web, system-ui, sans-serif" />
+    </mj-attributes>
+    <mj-raw>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+  </mj-head>
+  <mj-body css-class="mail-body">
+    <mj-include path="../style.css" type="css" />
+    <mj-wrapper>
+      <!-- SEND Logo -->
+      <mj-include path="../partials/send-logo.mjml" />
+      <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
+        <mj-column>
+          <!-- Title -->
+          <mj-text
+            css-class="text"
+            font-weight="bold"
+            align="left"
+            padding-top="24px"
+            padding-bottom="16px"
+            color="#17324D"
+          >
+            <!-- H4 Desktop (from MUI Italia)-->
+            <h1 style="font-size: 32px; line-height: 40px; margin: 0">
+              ${requesterName}${requesterSurname} ti ha riabilitato
+            </h1>
+          </mj-text>
+
+          <!-- Main Message -->
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            font-weight="regular"
+            align="left"
+            padding-top="8px"
+            padding-bottom="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 0px">Ciao,</p>
+          </mj-text>
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            font-weight="regular"
+            align="left"
+            padding-top="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 16px">
+              <strong>${requesterName}${requesterSurname}</strong> ti ha
+              riabilitato come<br aria-hidden="true" />
+              <strong>${productRole}</strong> di
+              <strong>${institutionName}</strong> su SEND - Servizio
+              Notifiche<br aria-hidden="true" />Digitali.
+            </p>
+            <p style="margin-top: 24px">
+              Questo significa che puoi di nuovo leggere le notifiche di<br
+                aria-hidden="true"
+              />
+              <strong>${institutionName}</strong> su SEND. Se hai domande o
+              dubbi, rivolgiti a <br aria-hidden="true" /><strong
+                >${requesterName}${requesterSurname}</strong
+              >.
+            </p>
+          </mj-text>
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            padding-bottom="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 8px">
+              A presto,<br aria-hidden="true" />il team di SEND - Servizio
+              Notifiche Digitali
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-include path="../partials/divider.mjml" />
+      <!-- Footer/Disclaimer -->
+      <mj-include path="../partials/footer-pnpg.mjml" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

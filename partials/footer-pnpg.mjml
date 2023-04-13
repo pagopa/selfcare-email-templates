@@ -1,0 +1,15 @@
+<mj-section css-class="section" padding-bottom="16px" padding-top="0px">
+  <mj-column>
+    <mj-text
+      css-class="footer-text"
+      font-size="14px"
+      line-height="20px"
+      color="#5C6F82"
+    >
+      <p style="margin-top: 0px">
+        Ricevi questo messaggio perché hai un’utenza attiva in SEND per questa
+        impresa.
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
