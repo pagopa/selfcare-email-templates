@@ -1,0 +1,100 @@
+<mjml lang="it">
+  <mj-head>
+    <mj-title>Impresa registrata</mj-title>
+    <mj-font
+      name="Titillium Web"
+      href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
+    />
+    <mj-attributes>
+      <mj-all font-family="Titillium Web, system-ui, sans-serif" />
+    </mj-attributes>
+    <mj-raw>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+  </mj-head>
+  <mj-body css-class="mail-body">
+    <mj-include path="../style.css" type="css" />
+    <mj-wrapper>
+      <!-- SEND Logo -->
+      <mj-include path="../partials/send-logo.mjml" />
+      <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
+        <mj-column>
+          <!-- Title -->
+          <mj-text
+            css-class="text"
+            font-weight="bold"
+            align="left"
+            padding-top="24px"
+            padding-bottom="16px"
+            color="#17324D"
+          >
+            <!-- H4 Desktop (from MUI Italia)-->
+            <h1 style="font-size: 32px; line-height: 40px; margin: 0">
+              Impresa registrata
+            </h1>
+          </mj-text>
+
+          <!-- Main Message -->
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            font-weight="regular"
+            align="left"
+            padding-top="8px"
+            padding-bottom="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 0px">Ciao,</p>
+          </mj-text>
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            font-weight="regular"
+            align="left"
+            padding-top="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 16px">
+              La registrazione dell'impresa <strong>{$businessName}</strong> a
+              SEND - Servizio <br aria-hidden="true" />Notifiche Digitali è
+              andata a buon fine. Da questo momento, puoi
+              <br aria-hidden="true" />
+              accedere per leggere le notifiche dell'impresa e aggiungere nuovi
+              utenti.
+            </p>
+          </mj-text>
+          <mj-button
+            font-family="Titillium Web"
+            background-color="#0073e6"
+            align="start"
+            color="white"
+            href="https://pnpg.selfcare.pagopa.it/auth/login"
+          >
+            Accedi
+          </mj-button>
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            padding-bottom="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 8px">
+              A presto,<br aria-hidden="true" />il team di SEND - Servizio
+              Notifiche Digitali
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-include path="../partials/divider.mjml" />
+      <!-- Footer/Disclaimer -->
+      <mj-include path="../partials/footer-pnpg.mjml" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>
