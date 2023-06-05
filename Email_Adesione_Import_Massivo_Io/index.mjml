@@ -60,8 +60,7 @@
           >
             <p style="margin-top: 0px">
               PagoPA S.p.A. ha realizzato il <strong>nuovo portale di back-office
-              dedicato agli Enti, denominato</strong> “<strong><a href="https://www.pagopa.it/it/area-riservata">
-              Area Riservata</a></strong>”, concepito
+              dedicato agli Enti, denominato</strong> “<strong><a href="https://www.pagopa.it/it/area-riservata">Area Riservata</a></strong>”, concepito
               per costituire il canale primario di interfaccia degli  Enti
                (e/o loro eventuali partner tecnologici) per l’adesione e
                 gestione dei prodotti in capo alla Società.
@@ -85,7 +84,7 @@
              </p>
              <p style="margin-top: 0px">
              <strong>Migrazione dei servizi</strong><br aria-hidden="true" />La migrazione consiste nello <strong>spostare i servizi</strong> dal citato Developer Portal di IO sul nuovo back-office che, a differenza del precedente (fondato su un modello delegato-centrico, in cui i servizi sono creati e gestiti dal singolo delegato), si basa su un modello ente-centrico. Nel nuovo portale di Area Riservata, infatti,  i servizi sono legati direttamente all’Ente di riferimento e gestiti da tutti gli utenti che sono delegati dall’Ente. Dunque, nel nuovo back-office <strong>i servizi non saranno visibili solo al delegato che li ha creati ma a tutti gli utenti che operano per l’Ente.</strong><br aria-hidden="true" />
-             I servizi ad oggi esistenti in capo al tuo Ente, inoltre, saranno <strong>spostati definitivamente sul nuovo back-office</strong>. Per maggiori informazioni sulle linee guida per l’importazione dei servizi, rimandiamo alla <u><a href="https://docs.pagopa.it/io-guida-tecnica/funzionalita/pubblicare-un-servizio/importare-servizi-nellarea-riservata">guida tecnica</a></u>.
+             Dopo che il tuo Ente, dall’Area riservata, ha selezionato “Importa i servizi” dal box “Importa i servizi dal Developer Portal”, i servizi selezionati saranno <strong>spostati definitivamente sul nuovo back-office</strong>. Per maggiori informazioni sulle linee guida per l’importazione dei servizi, rimandiamo alla <u><a href="https://docs.pagopa.it/io-guida-tecnica/funzionalita/pubblicare-un-servizio/importare-servizi-nellarea-riservata">guida tecnica</a></u>.
              </p>
             <p style="margin-top: 0px">
               Per qualsiasi dubbio e problematica potete contattare la nostra assistenza scrivendo a
