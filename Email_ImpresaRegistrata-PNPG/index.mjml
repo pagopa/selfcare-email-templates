@@ -59,7 +59,7 @@
             color="#17324D"
           >
             <p style="margin-top: 16px">
-              La registrazione dell'impresa <strong>{$businessName}</strong> a
+              La registrazione dell'impresa <strong>${businessName}</strong> a
               SEND - Servizio <br aria-hidden="true" />Notifiche Digitali è
               andata a buon fine. Da questo momento, puoi
               <br aria-hidden="true" />
