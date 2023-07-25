@@ -1,0 +1,202 @@
+<mjml lang="it">
+  <mj-head>
+    <mj-title>Comunicazione nuovo portale di Back-Office</mj-title>
+    <mj-font
+      name="Titillium Web"
+      href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
+    />
+    <mj-attributes>
+      <mj-all font-family="Titillium Web, system-ui, sans-serif" />
+    </mj-attributes>
+    <mj-raw>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+  </mj-head>
+  <mj-body css-class="mail-body">
+    <mj-include path="../style.css" type="css" />
+    <mj-wrapper>
+      <!-- PagoPA Logo -->
+      <mj-include path="../partials/main-logo.mjml" />
+      <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
+        <mj-column>
+          <!-- Title -->
+          <mj-text
+            css-class="text"
+            font-weight="bold"
+            align="left"
+            padding-top="16px"
+            padding-bottom="16px"
+            color="#17324D"
+          >
+            <!-- H4 Desktop (from MUI Italia)-->
+            <h1 style="font-size: 32px; line-height: 40px; margin: 0">
+              Comunicazione nuovo portale di Back-Office
+            </h1>
+          </mj-text>
+
+          <!-- Main Message -->
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            font-weight="regular"
+            align="left"
+            padding-top="16px"
+            padding-bottom="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 0px">Spettabile Ente,</p>
+          </mj-text>
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            font-weight="regular"
+            align="left"
+            padding-top="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 0px">
+              PagoPA S.p.A. ha realizzato il 
+              <strong>nuovo portale di back-office dedicato 
+              agli Enti, denominato “<a
+                href="https://www.pagopa.it/it/area-riservata"
+                style="color: #0073e6"
+                class="link"
+                >Area Riservata</a
+              >”</strong>, 
+              concepito per costituire il canale primario 
+              di interfaccia degli Enti (e/o loro eventuali 
+              partner tecnologici) per l’adesione 
+              e gestione dei prodotti in capo alla 
+              Società.
+            </p>
+            <p style="margin-top: 0px">
+              L’introduzione dell’Area Riservata comporta il 
+              passaggio a <strong>un nuovo portale di back-office 
+              anche per l’app IO</strong> e la conseguente migrazione 
+              (porting) dei servizi dal <a
+                href="https://developer.io.italia.it/login"
+                style="color: #0073e6"
+                class="link"
+                ><u>Developer Portal</u></a
+              > 
+              attualmente in uso.
+            </p>
+            <p style="margin-top: 0px">
+              Potrai eseguire questa attività - 
+              brevemente riepilogata nei punti che 
+              seguono - da adesso fino al <strong><u>30/09/2023</u></strong>. 
+              Ti ricordiamo che, <strong>decorso questo tempo, 
+              non sarà più possibile accedere ed operare 
+              sull’attuale Developer Portal</strong>.
+            </p>
+            <p style="margin-top: 0px">
+              Di seguito le modalità per effettuare la suddetta migrazione.<br>  
+Potrai anche consultare questa breve <a
+                href="https://app.arcade.software/flows/OenszHKwznajkB71uDOn/view"
+                style="color: #0073e6"
+                class="link"
+                ><u>video-guida interattiva</u></a
+              >  che illustra 
+i passaggi da compiere per effettuare correttamente 
+l’importazione dei servizi, successivamente all’accesso
+ all’Area Riservata.
+ <p style="margin-top: 0px">
+              <strong>Accesso</strong>
+            </p>
+            <p style="margin-top: 0px">
+              L’accesso al nuovo portale di Area Riservata 
+              dovrà essere effettuato da  almeno uno dei delegati 
+              che hai specificato sul contratto di adesione, 
+              attraverso questo <a
+                href="https://selfcare.pagopa.it/"
+                style="color: #0073e6"
+                class="link"
+                ><u>link</u></a
+              >. Sarà possibile accedere 
+              solo ed esclusivamente con SPID o CIE.
+            </p>
+            <p style="margin-top: 0px">
+              <strong>Aggiornamento utenti</strong>
+            </p>
+            <p style="margin-top: 0px">
+              Verifica nella sezione “Utenti” dell’Area Riservata che i delegati siano quelli attuali; in caso contrario li potrai gestire in autonomia aggiungendo/cancellando questi ultimi all’interno della suddetta area.<br>
+Qualora fossero presenti nel contratto di adesione Utenti appartenenti a Partner Tecnologici, ti chiediamo di censirli come “Operatori” all’interno dell’Area Riservata, sempre attraverso il pannello “Utenti”, che troverai una volta effettuato l’accesso.
+
+            </p>
+            <p style="margin-top: 0px">
+              <strong>Migrazione dei servizi</strong>
+            </p>
+            <p style="margin-top: 0px">
+              La migrazione consiste nello <strong>spostare i servizi </strong>
+              dal citato Developer Portal di IO sul nuovo 
+              back-office che, a differenza del precedente 
+              (fondato su un modello delegato-centrico, in 
+              cui i servizi sono creati e gestiti dal singolo 
+              delegato), si basa su un modello ente-centrico. 
+              Nel nuovo portale di Area Riservata, infatti, <strong>i 
+              servizi sono legati direttamente all’Ente di riferimento 
+              e gestiti da tutti gli utenti che sono delegati dall’Ente.</strong><br>
+              Dunque, nel nuovo back-office i servizi non saranno visibili 
+              solo al delegato che li ha creati ma a tutti gli utenti che 
+              operano per l’Ente.
+Dopo che il tuo Ente, dall’Area riservata, ha selezionato “Importa i 
+servizi” dal box “Importa i servizi dal Developer Portal”, 
+i servizi selezionati saranno <strong>spostati definitivamente sul 
+nuovo back-office</strong>. Per maggiori informazioni sulle linee guida 
+per l’importazione dei servizi, rimandiamo alla <a
+                href="https://docs.pagopa.it/io-guida-tecnica/funzionalita/pubblicare-un-servizio/importare-servizi-nellarea-riservata"
+                style="color: #0073e6"
+                class="link"
+                ><u>guida tecnica</u></a
+              >
+            </p>
+            <p style="margin-top: 0px">
+              Per qualsiasi dubbio e problematica 
+              è possibile contattare la nostra 
+              assistenza scrivendo a 
+              <a
+                href="mailto:areariservata@assistenza.pagopa.it"
+                style="color: #0073e6"
+                class="link"
+                >areariservata@assistenza.pagopa.it</a
+              >.
+            </p>
+            <p style="margin-top: 0px">
+              Al fine di chiarire ogni dubbio 
+              concernente la partecipazione 
+              ai bandi PNRR, si precisa che, 
+              per gli Enti che hanno aderito 
+              agli avvisi, l’introduzione del 
+              nuovo portale non incide sulle 
+              modalità di esecuzione delle attività.
+            </p>
+            <p style="margin-top: 0px">
+              Confidando in un pronto riscontro, restiamo a disposizione per eventuali necessità. 
+
+            </p>
+          </mj-text>
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            padding-bottom="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 0px">
+              A presto,<br aria-hidden="true" />il team di PagoPA S.p.A.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-include path="../partials/divider.mjml" />
+      <!-- Footer/Disclaimer -->
+      <mj-include path="../partials/footer.mjml" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>
