@@ -72,7 +72,7 @@
             background-color="#0073e6"
             align="start"
             color="white"
-            href="https://pnpg.selfcare.pagopa.it/auth/login"
+            href="https://imprese.notifichedigitali.it/auth/login"
           >
             Accedi
           </mj-button>
