@@ -84,7 +84,7 @@
               1341 e 1342 c.c.”
             </p>
             <p style="margin-top: 0px">
-              Se vuoi eliminare la richiesta di adesione, puoi farlo
+              Se non riconosci l’utente che ha fatto la richiesta di adesione o non é stata fatta dal tuo ente e vuoi eliminarla, puoi farlo
               <a href="${rejectTokenURL}" style="color: #0073e6" class="link"
                 >qui</a
               >.
