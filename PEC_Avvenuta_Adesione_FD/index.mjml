@@ -44,7 +44,7 @@
           <mj-text css-class="text" font-weight="bold" align="left" padding-top="16px" padding-bottom="16px" color="#17324D">
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 40px; margin: 0">
-              PEC di notifica di approvazione del Regolamento di Piattaforma caricato
+              Notifica di approvazione del Regolamento di Piattaforma caricato
             </h1>
           </mj-text>
 
@@ -65,7 +65,7 @@
               <li>Carica all’interno della piattaforma Fideiussioni Digitali l’intero set contrattuale firmato</li>
             </ul>
             </p>
-            <p style="margin-top: 0px">Entro 5 giorni lavorativi, riceverai da Cetif Advisory una PEC con la documentazione controfirmata. Verrà inviata inoltre un’email di conferma di attivazione. Una volta ricevuta, sarà possibile accedere all’Area Riservata e aggiungere nuovi utenti per la gestione del prodotto.
+            <p style="margin-top: 0px">Entro 5 giorni lavorativi, troverai, all’interno della piattaforma Fideiussioni Digitali, l’intero set contrattuale controfirmato. Verrà inviata inoltre un’email di conferma di attivazione. Una volta ricevuta, sarà possibile accedere all’Area Riservata e aggiungere nuovi utenti per la gestione del prodotto.
             </p>
             <p style="margin-top: 0px">
               Se hai problemi tecnici o domande in merito al funzionamento
