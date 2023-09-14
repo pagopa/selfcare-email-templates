@@ -1,0 +1,114 @@
+<mjml lang="it">
+  <mj-head>
+    <mj-title>Adesione completata</mj-title>
+    <mj-font name="Titillium Web" href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css" />
+    <mj-attributes>
+      <mj-all font-family="Titillium Web, system-ui, sans-serif" />
+    </mj-attributes>
+    <mj-raw>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+  </mj-head>
+  <mj-body css-class="mail-body">
+    <mj-include path="../style.css" type="css" />
+    <mj-wrapper>
+      <!-- PagoPA Logo -->
+      <mj-section css-class="header" padding-bottom="16px" padding-top="0px">
+        <mj-column>
+          <mj-image
+            css-class="light-img"
+            width="100px"
+            align="left"
+            src="https://selfcare.pagopa.it/assets/logo_pagopacorp.png"
+          />
+          <mj-raw>
+            <div
+              class="dark-img"
+              style="mso-hide: all; display: none; padding: 10px 25px"
+            >
+              <img
+                src="https://selfcare.pagopa.it/assets/logo_pagopa_white.png"
+                width="100px"
+                class="dark-img"
+                style="display: none"
+              />
+            </div>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
+        <mj-column>
+          <!-- Title -->
+          <mj-text css-class="text" font-weight="bold" align="left" padding-top="16px" padding-bottom="16px" color="#17324D">
+            <!-- H4 Desktop (from MUI Italia)-->
+            <h1 style="font-size: 32px; line-height: 40px; margin: 0">
+              PEC di notifica di approvazione del Regolamento di Piattaforma caricato
+            </h1>
+          </mj-text>
+
+          <!-- Main Message -->
+          <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="16px" padding-bottom="0px" color="#17324D">
+            <p style="margin-top: 0px">Ciao,</p>
+          </mj-text>
+          <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="0px" color="#17324D">
+            <p style="margin-top: 0px">
+              a seguito della richiesta di adesione del tuo ente a
+              <strong>${productName}</strong>, abbiamo caricato i documenti necessari nell'Area Riservata
+            <p style="margin-top: 0px">Per completare l'adesione, segui questi passaggi:
+            <ul>
+              <li>Accedi all’<a href="${selfcareURL}" style="color: #0073e6" class="link">Area Riservata</a></li>
+              <li>Vai al prodotto "${productName}"</li>
+              <li>Scarica tutta la documentazione</li>
+              <li>Firmare digitalmente tutti i documenti, apponendo una firma in ogni campo</li>
+              <li>Carica all’interno della piattaforma Fideiussioni Digitali l’intero set contrattuale firmato</li>
+            </ul>
+            </p>
+            <p style="margin-top: 0px">Entro 5 giorni lavorativi, riceverai da Cetif Advisory una PEC con la documentazione controfirmata. Verrà inviata inoltre un’email di conferma di attivazione. Una volta ricevuta, sarà possibile accedere all’Area Riservata e aggiungere nuovi utenti per la gestione del prodotto.
+            </p>
+            <p style="margin-top: 0px">
+              Se hai problemi tecnici o domande in merito al funzionamento
+              dell’Area Riservata, scrivi a
+              <a href="mailto:areariservata@assistenza.pagopa.it" style="color: #0073e6" class="link">areariservata@assistenza.pagopa.it</a>.
+            </p>
+          </mj-text>
+          <mj-text css-class="text" font-size="16px" line-height="24px" padding-bottom="0px" color="#17324D">
+            <p style="margin-top: 0px">
+              A presto,<br aria-hidden="true" />il team di PagoPA S.p.A.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
+        <mj-column>
+          <mj-divider
+            padding-top="16px"
+            padding-bottom="16px"
+            border-width="1px"
+            border-style="solid"
+            border-color="lightgrey"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- Footer/Disclaimer -->
+      <mj-section css-class="section" padding-bottom="16px" padding-top="0px">
+        <mj-column>
+          <mj-text
+            css-class="footer-text"
+            font-size="14px"
+            line-height="20px"
+            color="#5C6F82"
+          >
+            <p style="margin-top: 0px">
+              Ricevi questo messaggio perché hai un’utenza attiva nell’Area Riservata
+              dell’ente.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
