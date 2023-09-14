@@ -1,6 +1,6 @@
 <mjml lang="it">
   <mj-head>
-    <mj-title>Notifica di approvazione del Regolamento di Piattaforma caricato</mj-title>
+    <mj-title>Prossimi passi su Fideiussioni Digitali: guida all’onboarding in piattaforma</mj-title>
     <mj-font name="Titillium Web" href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css" />
     <mj-attributes>
       <mj-all font-family="Titillium Web, system-ui, sans-serif" />
@@ -44,7 +44,7 @@
           <mj-text css-class="text" font-weight="bold" align="left" padding-top="16px" padding-bottom="16px" color="#17324D">
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 40px; margin: 0">
-              Notifica di approvazione del Regolamento di Piattaforma caricato
+              Prossimi passi su Fideiussioni Digitali: guida all’onboarding in piattaforma
             </h1>
           </mj-text>
 
