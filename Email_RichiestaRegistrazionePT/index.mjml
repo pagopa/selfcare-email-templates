@@ -62,7 +62,7 @@
           <strong>${requesterName}</strong><strong>${requesterSurname}</strong>
               ha richiesto la registrazione di
               <strong>${institutionName}</strong> 
-              ti ha aggiunto come Partner tecnologico o Intermediario tecnologico.
+           come Partner tecnologico o Intermediario tecnologico.
             </p>
             <p style="margin-top: 0px">
               L'esito della richiesta sarà inviato a questo indirizzo. Una volta completata
