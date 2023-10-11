@@ -1,0 +1,102 @@
+<mjml lang="it">
+  <mj-head>
+    <mj-title>Registrazione completata</mj-title>
+    <mj-font
+      name="Titillium Web"
+      href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
+    />
+    <mj-attributes>
+      <mj-all font-family="Titillium Web, system-ui, sans-serif" />
+    </mj-attributes>
+    <mj-raw>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+  </mj-head>
+  <mj-body css-class="mail-body">
+    <mj-include path="../style.css" type="css" />
+    <mj-wrapper>
+      <!-- PagoPA Logo -->
+      <mj-include path="../partials/main-logo.mjml" />
+      <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
+        <mj-column>
+          <!-- Title -->
+          <mj-text
+            css-class="text"
+            font-weight="bold"
+            align="left"
+            padding-top="16px"
+            padding-bottom="16px"
+            color="#17324D"
+          >
+            <!-- H4 Desktop (from MUI Italia)-->
+            <h1 style="font-size: 32px; line-height: 40px; margin: 0">
+              Registrazione completata
+            </h1>
+          </mj-text>
+
+          <!-- Main Message -->
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            font-weight="regular"
+            align="left"
+            padding-top="16px"
+            padding-bottom="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 0px">Ciao,</p>
+          </mj-text>
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            font-weight="regular"
+            align="left"
+            padding-top="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 0px">
+              la richiesta di registrazione in Area Riservata è andata a buon fine!</br>
+              Da questo momento, gli Enti potranno sceglierti come Partner tecnologico.
+            </p>
+            <p style="margin-top: 0px">
+             Nel frattempo, <a href="">
+              <a href="${selfcareURL}" style="color: #0073e6" class="link"
+                 >puoi accedere all'Area riservata</a> per aggiungere i tuoi utenti.
+            </p>
+            <p style="margin-top: 0px">
+              Se hai problemi tecnici o domande in merito al funzionamento
+              dell’Area Riservata, scrivi a
+              <a
+                href="mailto:areariservata@assistenza.pagopa.it"
+                style="color: #0073e6"
+                class="link"
+                >areariservata@assistenza.pagopa.it</a
+              >.
+            </p>
+
+          </mj-text>
+          <mj-text
+            css-class="text"
+            font-size="16px"
+            line-height="24px"
+            padding-bottom="0px"
+            color="#17324D"
+          >
+            <p style="margin-top: 0px">
+              A presto,<br aria-hidden="true" />il team di PagoPA S.p.A.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-include path="../partials/divider.mjml" />
+      <!-- Footer/Disclaimer -->
+      <mj-include path="../partials/footer.mjml" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>
