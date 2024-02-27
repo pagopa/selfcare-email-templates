@@ -60,7 +60,11 @@
           >
             <p style="margin-top: 0px">
               la richiesta di adesione al prodotto
-              <strong>${productName}</strong> non è andata a buon fine. Prova ad aderire al prodotto scelto inviando una nuova richiesta da
+              <strong>${productName}</strong> non è andata a buon fine. <br>
+              Cosa ha impedito l'accettazione: "${reasonForReject}" </p>
+              
+            <p style="margin-top: 0px">
+              Prova ad aderire al prodotto scelto inviando una nuova richiesta da
               <a
                 href="${onboardingUrl}"
                 style="color: #0073e6"
