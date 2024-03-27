@@ -60,7 +60,7 @@
           >
             <p style="margin-top: 0px">
               <strong>${requesterName} ${requesterSurname}</strong>
-              ha fatto una richiesta di adesione al prodotto
+              ha fatto richiesta di adesione al prodotto
               <strong>${productName}</strong>.
             </p>
             <p style="margin-top: 0px; margin-bottom: 0px">
@@ -68,9 +68,9 @@
             </p>
             <ul style="margin-top: 0px">
               <li>premi sul bottone "Completa l’adesione";</li>
-              <li>scarica l’Accordo;</li>
+              <li>scarica l’accordo;</li>
               <li>fai apporre la firma digitale, in formato p7m, dal Legale Rappresentante del tuo ente o da un suo procuratore;</li>
-              <li>carica <b>entro 30 giorni</b> l’Accordo firmato.</li>
+              <li>carica <b>entro 30 giorni</b> l’accordo firmato.</li>
             </ul>
             <a href="${confirmTokenURL}">
               <button type="button" style="background: #0073E6;
@@ -90,13 +90,19 @@
                            text-align: center;"><b>Completa l’adesione</b>
               </button>
             </a>
-            <p style="margin-top: 24px">
+            <p style="color: #5C6F82; margin-top: 24px; font-size: 12px;">
+              Firmando l’Accordo, il Legale Rappresentante dell'ente accetta espressamente e specificamente anche le singole
+              clausole indicate nel paragrafo “Clausole ai sensi degli artt.
+              1341 e 1342 c.c.”
+            </p>
+            <p style="margin-top: 0px">
               Oltre i 30 giorni, non sarà più possibile finalizzare l’adesione. Sarà quindi necessario inviare una nuova richiesta.
             </p>
             <p style="margin-top: 0px">
               Se non riconosci l’utente che ha fatto la richiesta di adesione o non è stata fatta dal tuo ente e vuoi eliminarla, puoi farlo
               <a href="${rejectTokenURL}" style="color: #0073e6" class="link">da questa pagina</a>.
-              <br>
+            </p>
+            <p style="margin-top: 0px">
               Per problemi tecnici o domande in merito al funzionamento dell’Area Riservata, scrivi a
               <a href="mailto:areariservata@assistenza.pagopa.it" style="color: #0073e6" class="link">areariservata@assistenza.pagopa.it</a>.
             </p>
