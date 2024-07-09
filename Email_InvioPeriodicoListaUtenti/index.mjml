@@ -1,0 +1,72 @@
+<mjml lang="it">
+  <mj-head>
+    <mj-title>Verifica Utenti Attivi</mj-title>
+    <mj-font name="Titillium Web" href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css" />
+    <mj-attributes>
+      <mj-all font-family="Titillium Web, system-ui, sans-serif" />
+    </mj-attributes>
+    <mj-raw>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+  </mj-head>
+  <mj-body css-class="mail-body">
+    <mj-include path="../style.css" type="css" />
+    <mj-wrapper>
+      <!-- PagoPA Logo -->
+      <mj-include path="../partials/main-logo.mjml" />
+      <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
+        <mj-column>
+          <!-- Title -->
+          <mj-text css-class="text" font-weight="bold" align="left" padding-top="16px" padding-bottom="16px" color="#17324D">
+            <!-- H4 Desktop (from MUI Italia)-->
+            <h1 style="font-size: 32px; line-height: 40px; margin: 0">
+              Verifica utenti per ${nome_prodotto}
+            </h1>
+          </mj-text>
+
+          <!-- Main Message -->
+          <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="16px" padding-bottom="0px" color="#17324D">
+            <p style="margin-top: 0px">Ciao,</p>
+          </mj-text>
+          <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="0px" padding-bottom="0px" color="#17324D">
+            <p style="margin-top: 0px">
+              ti inviamo questa comunicazione mensilmente per ricordarti di verificare
+              e, se necessario, <strong>aggiornare l'elenco degli utenti</strong> nominati per il
+              prodotto <strong>${nome_prodotto}</strong> dal tuo ente.<br aria-hidden="true" />
+              Puoi farlo premento sul bottone qui in basso o dalla sezione Utenti di
+              <a href="https://selfcare.pagopa.it" style="color: #0073e6" class="link">Area Riservata.</a>
+            </p>
+          </mj-text>
+          <mj-button font-family="Titillium Web" background-color="#0073e6" align="start" color="white" href="https://imprese.notifichedigitali.it/auth/login">
+            Aggiorna l'elenco utenti
+          </mj-button>
+          <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="20px" color="#17324D">
+            <p style="margin-top: 0px">
+              Se sono presenti utenti non più attivi, ti chiediamo di rimuoverli
+              al più presto, al massimo entro <strong>30 giorni dalla ricezione di questa comunicazione.</strong></p>
+          </mj-text>
+          <mj-divider padding-top="16px" padding-bottom="16px" border-width="1px" align="left" border-style="solid" border-color="lightgrey" padding-right="70%" />
+          <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="0px" color="#17324D">
+            </p>
+            <p style="margin-top: 0px">
+              Se hai problemi tecnici o domande in merito al
+              funzionamento dell'Area Riservata, scrivi a
+              <a href="mailto:areariservata@assistenza.pagopa.it" style="color: #0073e6" class="link">areariservata@assistenza.pagopa.it</a>.
+            </p>
+          </mj-text>
+          <mj-text css-class="text" font-size="16px" line-height="24px" padding-bottom="0px" color="#17324D">
+            <p style="margin-top: 0px">
+              A presto,<br aria-hidden="true" />il team di PagoPA S.p.A.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- Divider -->
+      <mj-include path="../partials/divider.mjml" />
+      <!-- Footer/Disclaimer -->
+      <mj-include path="../partials/footer.mjml" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>
