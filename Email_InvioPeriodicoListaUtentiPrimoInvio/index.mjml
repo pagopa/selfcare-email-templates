@@ -36,10 +36,10 @@
               e, se necessario, <strong>aggiornare l'elenco degli utenti</strong> nominati per il
               prodotto <strong>${nome_prodotto}</strong> dal tuo ente.<br aria-hidden="true" />
               Puoi farlo premendo sul bottone qui in basso o dalla sezione Utenti di
-              <a href="https://selfcare.pagopa.it/dashboard/${id_institution}/users#${id_prodotto}" style="color: #0073e6" class="link">Area Riservata.</a>
+              <a href="https://selfcare.pagopa.it/auth/login" style="color: #0073e6" class="link">Area Riservata.</a>
             </p>
           </mj-text>
-          <mj-button font-family="Titillium Web, system-ui, sans-serif" font-weight="bold" background-color="#0073e6" align="start" color="white" href="https://selfcare.pagopa.it/auth/login">
+          <mj-button font-family="Titillium Web, system-ui, sans-serif" font-weight="bold" background-color="#0073e6" align="start" color="white" href="https://selfcare.pagopa.it/dashboard/${id_institution}/users#${id_prodotto}">
             Aggiorna l'elenco utenti
           </mj-button>
           <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="20px" color="#17324D">
