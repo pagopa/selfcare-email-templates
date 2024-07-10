@@ -39,7 +39,7 @@
               <a href="https://selfcare.pagopa.it" style="color: #0073e6" class="link">Area Riservata.</a>
             </p>
           </mj-text>
-          <mj-button font-family="Titillium Web" background-color="#0073e6" align="start" color="white" href="https://imprese.notifichedigitali.it/auth/login">
+          <mj-button font-family="Titillium Web, system-ui, sans-serif" font-weight="bold" background-color="#0073e6" align="start" color="white" href="https://selfcare.pagopa.it/auth/login">
             Aggiorna l'elenco utenti
           </mj-button>
           <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="20px" color="#17324D">
