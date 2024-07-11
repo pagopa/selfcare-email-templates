@@ -32,11 +32,10 @@
           </mj-text>
           <mj-text css-class="text" font-size="16px" line-height="24px" font-weight="regular" align="left" padding-top="0px" padding-bottom="0px" color="#17324D">
             <p style="margin-top: 0px">
-             questo mese sono stati aggiunti <strong>${numero_utenti}</strong> nuovi utenti su <strong>${nome_prodotto}</strong>.
-              Ricevi questa comunicazione mensilmente per verificare e,
-              se necessario, <strong>aggiornare l'elenco degli utenti</strong> nominati per il
+              ti inviamo questa comunicazione mensilmente per ricordarti di verificare
+              e, se necessario, <strong>aggiornare l'elenco degli utenti</strong> nominati per il
               prodotto <strong>${nome_prodotto}</strong> dal tuo ente.<br aria-hidden="true" />
-              Per farlo, premi sul bottone qui in basso o vai alla sezione Utenti di
+              Puoi farlo premendo sul bottone qui in basso o dalla sezione Utenti di
               <a href="https://selfcare.pagopa.it/auth/login" style="color: #0073e6" class="link">Area Riservata.</a>
             </p>
           </mj-text>
