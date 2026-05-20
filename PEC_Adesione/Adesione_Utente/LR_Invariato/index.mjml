@@ -12,7 +12,7 @@
     </mj-raw>
   </mj-head>
   <mj-body css-class="mail-body">
-    <mj-include path="../style.css" type="css" />
+    <mj-include path="../../../style.css" type="css" />
     <mj-wrapper>
       <!-- PagoPA Logo -->
       <mj-include path="../../../partials/main-logo.mjml" />
@@ -78,9 +78,9 @@
         </mj-column>
       </mj-section>
       <!-- Divider -->
-      <mj-include path="../partials/divider.mjml" />
+      <mj-include path="../../../partials/divider.mjml" />
       <!-- Footer/Disclaimer -->
-      <mj-include path="../partials/footer.mjml" />
+      <mj-include path="../../../partials/footer.mjml" />
     </mj-wrapper>
   </mj-body>
 </mjml>
