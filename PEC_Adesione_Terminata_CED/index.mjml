@@ -69,22 +69,23 @@
             </p>
             <p style="margin-top: 0px">
               Per avere più informazioni sul motivo, contatta il Dipartimento per le
-              politiche in favore delle persone con disabilità all'indirizzo <a
-                href="mailto:abcde@dipartimento.gov.it"
+              politiche in favore delle persone con disabilità all'indirizzo 
+              <u><a
+                href="mailto:convenzioni.disabilitycard@governo.it"
                 style="color: #0073e6"
                 class="link"
-                >abcde@dipartimento.gov.it</a
-              >.
+                >convenzioni.disabilitycard@governo.it</a
+              >.</u>
             </p>
             <p style="margin-top: 0px">
               Se hai problemi tecnici o domande in merito al funzionamento
               dell’Area Riservata, scrivi a
-              <a
+              <u><a
                 href="mailto:areariservata@assistenza.pagopa.it"
                 style="color: #0073e6"
                 class="link"
                 >areariservata@assistenza.pagopa.it</a
-              >.
+              >.</u>
             </p>
           </mj-text>
           <mj-text
