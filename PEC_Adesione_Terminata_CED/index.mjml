@@ -60,7 +60,7 @@
           >
             <p style="margin-top: 0px">
               la tua convenzione con il Dipartimento per le politiche in favore delle
-              persone con disabilità relativa al prodotto {productName} <strong>è terminata</strong>.
+              persone con disabilità relativa al prodotto ${productName} <strong>è terminata</strong>.
             </p>
             <p style="margin-top: 0px">
               Da questo momento non puoi più accedere al prodotto Carta Europea della
